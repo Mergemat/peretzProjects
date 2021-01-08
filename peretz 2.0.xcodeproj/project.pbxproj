@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190AC65325A7B8A6007237AF /* minusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 190AC64E25A7B8A5007237AF /* minusButton.png */; };
+		190AC65425A7B8A6007237AF /* PlusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 190AC64F25A7B8A5007237AF /* PlusIcon.png */; };
+		190AC65525A7B8A6007237AF /* Vector.png in Resources */ = {isa = PBXBuildFile; fileRef = 190AC65025A7B8A5007237AF /* Vector.png */; };
+		190AC65625A7B8A6007237AF /* newIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 190AC65125A7B8A5007237AF /* newIcon.png */; };
+		190AC65725A7B8A6007237AF /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 190AC65225A7B8A6007237AF /* placeholder.png */; };
+		193456C325A7BB6C00977AB4 /* DishPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193456C225A7BB6C00977AB4 /* DishPageViewController.swift */; };
+		1961C36525A8D075008BA803 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961C36425A8D075008BA803 /* Model.swift */; };
+		1961C36A25A8DCA5008BA803 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961C36925A8DCA5008BA803 /* TableViewCell.swift */; };
+		19B6145925A7B80B00A5C33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B6145825A7B80B00A5C33E /* AppDelegate.swift */; };
+		19B6145B25A7B80B00A5C33E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B6145A25A7B80B00A5C33E /* SceneDelegate.swift */; };
+		19B6145D25A7B80B00A5C33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B6145C25A7B80B00A5C33E /* ViewController.swift */; };
+		19B6146025A7B80B00A5C33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B6145E25A7B80B00A5C33E /* Main.storyboard */; };
+		19B6146225A7B80D00A5C33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B6146125A7B80D00A5C33E /* Assets.xcassets */; };
+		19B6146525A7B80D00A5C33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B6146325A7B80D00A5C33E /* LaunchScreen.storyboard */; };
+		7D2371D134FFC785315D0B9F /* Pods_peretz_2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9783262133FFEE17D2EE1F5D /* Pods_peretz_2_0.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		190AC64E25A7B8A5007237AF /* minusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minusButton.png; sourceTree = "<group>"; };
+		190AC64F25A7B8A5007237AF /* PlusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlusIcon.png; sourceTree = "<group>"; };
+		190AC65025A7B8A5007237AF /* Vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector.png; sourceTree = "<group>"; };
+		190AC65125A7B8A5007237AF /* newIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newIcon.png; sourceTree = "<group>"; };
+		190AC65225A7B8A6007237AF /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		193456C225A7BB6C00977AB4 /* DishPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPageViewController.swift; sourceTree = "<group>"; };
+		1961C36425A8D075008BA803 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1961C36725A8D340008BA803 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1961C36925A8DCA5008BA803 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		19B6145525A7B80B00A5C33E /* peretz 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "peretz 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B6145825A7B80B00A5C33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19B6145A25A7B80B00A5C33E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19B6145C25A7B80B00A5C33E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19B6145F25A7B80B00A5C33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B6146125A7B80D00A5C33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B6146425A7B80D00A5C33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19B6146625A7B80D00A5C33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5C2C5CDAC4987A2020EFD9 /* Pods-peretz 2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peretz 2.0.debug.xcconfig"; path = "Target Support Files/Pods-peretz 2.0/Pods-peretz 2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		9783262133FFEE17D2EE1F5D /* Pods_peretz_2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peretz_2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B721BB7E5FEE9B8FC37A7C /* Pods-peretz 2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peretz 2.0.release.xcconfig"; path = "Target Support Files/Pods-peretz 2.0/Pods-peretz 2.0.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B6145225A7B80B00A5C33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2371D134FFC785315D0B9F /* Pods_peretz_2_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B6144C25A7B80B00A5C33E = {
+			isa = PBXGroup;
+			children = (
+				19B6145725A7B80B00A5C33E /* peretz 2.0 */,
+				19B6145625A7B80B00A5C33E /* Products */,
+				46519E35656D27D820C0184B /* Pods */,
+				E97FA8CAB6AA85738D8F9455 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19B6145625A7B80B00A5C33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B6145525A7B80B00A5C33E /* peretz 2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B6145725A7B80B00A5C33E /* peretz 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				19B6145825A7B80B00A5C33E /* AppDelegate.swift */,
+				19B6145A25A7B80B00A5C33E /* SceneDelegate.swift */,
+				19B6145C25A7B80B00A5C33E /* ViewController.swift */,
+				19B6145E25A7B80B00A5C33E /* Main.storyboard */,
+				190AC64E25A7B8A5007237AF /* minusButton.png */,
+				190AC65125A7B8A5007237AF /* newIcon.png */,
+				190AC65225A7B8A6007237AF /* placeholder.png */,
+				190AC64F25A7B8A5007237AF /* PlusIcon.png */,
+				190AC65025A7B8A5007237AF /* Vector.png */,
+				19B6146125A7B80D00A5C33E /* Assets.xcassets */,
+				19B6146325A7B80D00A5C33E /* LaunchScreen.storyboard */,
+				19B6146625A7B80D00A5C33E /* Info.plist */,
+				193456C225A7BB6C00977AB4 /* DishPageViewController.swift */,
+				1961C36425A8D075008BA803 /* Model.swift */,
+				1961C36925A8DCA5008BA803 /* TableViewCell.swift */,
+				1961C36725A8D340008BA803 /* MyPlayground.playground */,
+			);
+			path = "peretz 2.0";
+			sourceTree = "<group>";
+		};
+		46519E35656D27D820C0184B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D5C2C5CDAC4987A2020EFD9 /* Pods-peretz 2.0.debug.xcconfig */,
+				D1B721BB7E5FEE9B8FC37A7C /* Pods-peretz 2.0.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E97FA8CAB6AA85738D8F9455 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9783262133FFEE17D2EE1F5D /* Pods_peretz_2_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B6145425A7B80B00A5C33E /* peretz 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B6146925A7B80D00A5C33E /* Build configuration list for PBXNativeTarget "peretz 2.0" */;
+			buildPhases = (
+				6C2A483E6C3F95B328C66DF9 /* [CP] Check Pods Manifest.lock */,
+				19B6145125A7B80B00A5C33E /* Sources */,
+				19B6145225A7B80B00A5C33E /* Frameworks */,
+				19B6145325A7B80B00A5C33E /* Resources */,
+				A385A08A6FE1FD742D47E512 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "peretz 2.0";
+			productName = "peretz 2.0";
+			productReference = 19B6145525A7B80B00A5C33E /* peretz 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B6144D25A7B80B00A5C33E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					19B6145425A7B80B00A5C33E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 19B6145025A7B80B00A5C33E /* Build configuration list for PBXProject "peretz 2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B6144C25A7B80B00A5C33E;
+			productRefGroup = 19B6145625A7B80B00A5C33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B6145425A7B80B00A5C33E /* peretz 2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B6145325A7B80B00A5C33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B6146525A7B80D00A5C33E /* LaunchScreen.storyboard in Resources */,
+				19B6146225A7B80D00A5C33E /* Assets.xcassets in Resources */,
+				190AC65525A7B8A6007237AF /* Vector.png in Resources */,
+				190AC65325A7B8A6007237AF /* minusButton.png in Resources */,
+				190AC65425A7B8A6007237AF /* PlusIcon.png in Resources */,
+				190AC65725A7B8A6007237AF /* placeholder.png in Resources */,
+				190AC65625A7B8A6007237AF /* newIcon.png in Resources */,
+				19B6146025A7B80B00A5C33E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C2A483E6C3F95B328C66DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-peretz 2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A385A08A6FE1FD742D47E512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-peretz 2.0/Pods-peretz 2.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-peretz 2.0/Pods-peretz 2.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-peretz 2.0/Pods-peretz 2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B6145125A7B80B00A5C33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1961C36525A8D075008BA803 /* Model.swift in Sources */,
+				19B6145D25A7B80B00A5C33E /* ViewController.swift in Sources */,
+				19B6145925A7B80B00A5C33E /* AppDelegate.swift in Sources */,
+				1961C36A25A8DCA5008BA803 /* TableViewCell.swift in Sources */,
+				19B6145B25A7B80B00A5C33E /* SceneDelegate.swift in Sources */,
+				193456C325A7BB6C00977AB4 /* DishPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19B6145E25A7B80B00A5C33E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B6145F25A7B80B00A5C33E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B6146325A7B80D00A5C33E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B6146425A7B80D00A5C33E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B6146725A7B80D00A5C33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19B6146825A7B80D00A5C33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B6146A25A7B80D00A5C33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5C2C5CDAC4987A2020EFD9 /* Pods-peretz 2.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8NF3DYK76;
+				INFOPLIST_FILE = "peretz 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baga.peretz-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B6146B25A7B80D00A5C33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B721BB7E5FEE9B8FC37A7C /* Pods-peretz 2.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8NF3DYK76;
+				INFOPLIST_FILE = "peretz 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baga.peretz-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B6145025A7B80B00A5C33E /* Build configuration list for PBXProject "peretz 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B6146725A7B80D00A5C33E /* Debug */,
+				19B6146825A7B80D00A5C33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B6146925A7B80D00A5C33E /* Build configuration list for PBXNativeTarget "peretz 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B6146A25A7B80D00A5C33E /* Debug */,
+				19B6146B25A7B80D00A5C33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B6144D25A7B80B00A5C33E /* Project object */;
+}
