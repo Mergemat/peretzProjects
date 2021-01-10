@@ -191,12 +191,25 @@
                                     <action selector="toMainPage:" destination="FWo-qN-SeY" eventType="touchUpInside" id="Ebt-Ih-eet"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Gy0-SQ-E5y">
+                                <rect key="frame" x="137.66666666666666" y="356" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1DS-6C-NrM"/>
+                                    <constraint firstAttribute="height" constant="100" id="KaD-yB-DZE"/>
+                                </constraints>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pNp-mb-tcI"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gy0-SQ-E5y" firstAttribute="centerX" secondItem="ysd-ML-zM7" secondAttribute="centerX" id="kL2-qX-AzP"/>
+                            <constraint firstItem="Gy0-SQ-E5y" firstAttribute="centerY" secondItem="ysd-ML-zM7" secondAttribute="centerY" id="ui5-sK-T8Q"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5gN-m9-bfs"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="Gy0-SQ-E5y" id="LVv-kl-1Tn"/>
                         <outlet property="dishList" destination="VX9-5w-tNw" id="yqK-pU-hPt"/>
                     </connections>
                 </viewController>

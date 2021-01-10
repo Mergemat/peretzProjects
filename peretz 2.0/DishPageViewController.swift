@@ -21,6 +21,7 @@ class DishModel {
 class DishPageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var dishList: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     var dishArray = [DishModel]()
     
     override func viewDidLoad() {
@@ -28,8 +29,10 @@ class DishPageViewController: UIViewController, UITableViewDelegate, UITableView
         
         dishList.delegate = self
         dishList.dataSource = self
-        
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.startAnimating()
         getDishes()
+        
         // Do any additional setup after loading the view.
     }
     
@@ -44,6 +47,9 @@ class DishPageViewController: UIViewController, UITableViewDelegate, UITableView
             
             
             self.dishList.reloadData()
+            if self.dishArray.isEmpty == false{
+                self.activityIndicator.stopAnimating()
+            }
         }
 
     }
