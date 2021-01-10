@@ -65,4 +65,10 @@ class DishPageViewController: UIViewController, UITableViewDelegate, UITableView
         return 224.0
     }
     
+    @IBAction func toMainPage(_ sender: Any) {
+        let mainPageViewController = (storyboard?.instantiateViewController(withIdentifier: "MainPage"))! as UIViewController
+        mainPageViewController.modalTransitionStyle = .crossDissolve
+        mainPageViewController.modalPresentationStyle = .overCurrentContext
+        present(mainPageViewController, animated: true, completion: nil)
+    }
 }

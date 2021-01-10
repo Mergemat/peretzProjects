@@ -18,6 +18,13 @@ class ViewController: UIViewController {
         button.layer.cornerRadius = 4
         
     }
+    @IBAction func toDishPage(_ sender: Any) {
+        let dishPageViewController = (storyboard?.instantiateViewController(withIdentifier: "DishPage"))! as UIViewController
+        dishPageViewController.modalTransitionStyle = .crossDissolve
+        dishPageViewController.modalPresentationStyle = .overCurrentContext
+        present(dishPageViewController, animated: true, completion: nil)
+
+    }
     
 }
 
