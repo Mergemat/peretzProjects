@@ -80,16 +80,11 @@ class TableViewCell: UITableViewCell {
     
     private func showHideCount() {
         var isHidden = false
-        print("----------")
-        print(self.dish.count)
-        
         if self.dish.count < 1 {
             isHidden = true
         } else {
             isHidden = false
         }
-        print(offerCountLabel.text)
-        print("----------")
         self.offerCountLabel.isHidden = isHidden
         self.minusButton.isHidden = isHidden
 
